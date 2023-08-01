@@ -10,20 +10,21 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Chào bạn, mình là <GradientText>DucTruong</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
+          Đây là trang thông tin chương trình Game deign. Chương trình thuộc
+          chuỗi Theme course của{' '}
           <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
+            Arkki VN
           </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
+          Dành cho học sinh cấp 2-3. Tổng quan chương trình gồm{' '}
           <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
+            20 dự án
           </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          về Game programming và Game development.
         </>
       }
       avatar={
