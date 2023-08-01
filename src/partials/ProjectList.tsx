@@ -16,10 +16,10 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        name="Scrat Journey"
+        description="Bài học nhằm giúp học sinh biết đến thuật ngữ cơ bản, quan trọng và hay
+        gặp khi nói đến Phát triển game nói riêng và Phát triển phần mềm nói chung. 
+        (Thuật toán)"
         link="/"
         img={{
           src: '/assets/images/project-web-design.png',
@@ -27,25 +27,23 @@ const ProjectList = () => (
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.FUCHSIA}>Thuật toán</Tags>
+            <Tags color={ColorTags.LIME}>Game design</Tags>
+            <Tags color={ColorTags.SKY}>Game programing</Tags>
+            <Tags color={ColorTags.ROSE}>DucTruong</Tags>
           </>
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
+        name="Dancer Party"
+        description="Một hành đông làm cái gì đó xảy ra ! (Event)."
         link="/"
         img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+            <Tags color={ColorTags.VIOLET}>Event</Tags>
+            <Tags color={ColorTags.EMERALD}>Game programming</Tags>
+            <Tags color={ColorTags.YELLOW}>DucTruong</Tags>
           </>
         }
       />
